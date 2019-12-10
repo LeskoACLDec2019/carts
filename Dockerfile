@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM openjdk:14-alpine
 
 WORKDIR /usr/src/app
 COPY ./target/*.jar ./app.jar
